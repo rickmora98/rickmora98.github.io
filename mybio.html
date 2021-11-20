@@ -1,0 +1,130 @@
+<html lang="en-us">
+    <head>
+        <title>My Bio Page</title>
+        <style>
+            body{
+                background-color: rgb(108, 178, 243);
+            }
+            img{
+                margin: 10px;
+                border-width: 5px;
+                border: black;
+            }
+            .navbar{
+                padding: 10px;
+                background: blue;
+            }
+            .navbar li{
+                display: inline-block;
+                padding: 20px;
+                background: gray;
+                border-radius: 3px;
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+            .navbar li a{
+                color: black;
+                text-decoration: none;
+            }
+            .select{
+                visibility: hidden;
+            }
+            @media (max-width: 600px){
+                .navbar li{
+                    padding: 10px;
+                }
+                .navbar ul{
+                    visibility: hidden;
+                }
+                .select{
+                    visibility: visible;
+                }
+                body{
+                    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                }
+            }
+        </style>
+    </head>
+
+    <body>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="travel.html">Travel Plans</a></li>
+            </ul>
+        </nav>
+  
+        <select class="select">
+            <option>Home</option>
+            <option>Travel Plans</option>
+        </select>
+
+        <center>
+            <h1>Welcome to my web page!</h1>
+
+            <a href="media/rickpic.jpg">
+                <img src="media/rickpic.jpg" alt="Rick's Mugshot" width="300" height="300" title="Grand Canyon Vacation">
+            </a>
+            <h2><br>About Me:</h2>
+            <p>
+                Hello, my name is Rick Mora.
+                I am currently a student in the Georgia Tech Data Science Bootcamp.<br>
+                I hope to transition into a professional role in this field in 2022.<br>
+                Previously, I had worked almost 30 years in the hospitality industy.<br>
+            </p>
+        </center>
+        <hr>
+        <h3>External Links: </h3>
+        <ul>
+            <li>Github site: </li>
+                <a href=""></a>
+            <li>LinkedIn profile: </li>
+                <a href=""></a>
+        </ul>
+        <hr>
+        <center>
+            <h3>Some of my favorite things:</h3>
+            <table border="2">
+                <tr>
+                    <th>Movies</th>
+                    <th>TV Shows</th>
+                    <th>Books</th>
+                    <th>Activities</th>
+                    <th>Programming Languages</th></td>
+                </tr>
+                <tr>
+                    <td>Star Wars Series</td>
+                    <td>The Expanse</td>
+                    <td>Foundation Series</td>
+                    <td>Hiking</td>
+                    <td>VBA</td>
+                </tr>
+                <tr>
+                    <td>Harry Potter Series</td>
+                    <td>Babylon 5</td>
+                    <td>Hithhikers Guide Series</td>
+                    <td>Whitewater Rafting</td>
+                    <td>Python</td>
+                </tr>
+                <tr>
+                    <td>Avengers Series</td>
+                    <td>All Trek Series</td>
+                    <td>Dune Series</td>
+                    <td>Weight Lifting</td>
+                    <td>Fortran (yikes!)</td>
+                </tr>
+                <tr>
+                    <td>Davinci Code Series</td>
+                    <td>Big Bang Theory</td>
+                    <td>Reality Dysfunction Series</td>
+                    <td>Bartending/Mixology</td>
+                    <td></td>
+                </tr>
+            </table>
+        </center>
+    </body>
+
+    <footer>
+        <p>&copy; 2021, Ricardo G. Mora, Jr.  All rights reserved.</p>
+    </footer>
+</html>
