@@ -1,6 +1,7 @@
 <html lang="en-us">
+
     <head>
-        <title>My Bio Page</title>
+        <title>Rick Mora Bio</title>
         <style>
             body{
                 background-color: rgb(108, 178, 243);
@@ -9,6 +10,18 @@
                 margin: 10px;
                 border-width: 5px;
                 border: black;
+            }
+            th{
+                padding: 10px;
+            }
+            td{
+                padding: 10px;
+                text-align: center;
+            }
+            td:hover{
+                background-color: blue;
+                font-weight: bold;
+                color: aliceblue;
             }
             .navbar{
                 padding: 10px;
@@ -25,6 +38,12 @@
             .navbar li a{
                 color: black;
                 text-decoration: none;
+            }
+            .external{
+                margin: 0 auto;
+                text-align: left;
+                display: table;
+                padding-right: 25px;
             }
             .select{
                 visibility: hidden;
@@ -47,44 +66,54 @@
     </head>
 
     <body>
-        <nav class="navbar">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="travel.html">Travel Plans</a></li>
-            </ul>
-        </nav>
-  
-        <select class="select">
-            <option>Home</option>
-            <option>Travel Plans</option>
-        </select>
+        <center>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="https://rickmora98.github.io/leaflet-challenge/">Earthquakes</a></li>
+                    <li><a href="https://rickmora98.github.io/Web-Design-Challenge/">Weather</a></li>
+                    <li><a href="https://rickmora98.github.io/javascript-plotly-challenge/">Belly Buttons</a></li>
+                    <li><a href="travel.html">Travel Plans</a></li>
+                </ul>
+            </nav>
+            
+            <select class="select">
+                <option>Earthquakes</option>
+                <option>Weather</option>
+                <option>Belly Buttons</option>
+                <option>Travel Plans</option>
+            </select>
+        </center>
 
         <center>
-            <h1>Welcome to my web page!</h1>
-
-            <a href="media/rickpic.jpg">
-                <img src="media/rickpic.jpg" alt="Rick's Mugshot" width="300" height="300" title="Grand Canyon Vacation">
+            <h1>Rick Mora</h1>
+            <h3>(AKA: Ricardo G. Mora, Jr.)</h3>
+            
+            <a href="media/rickpic3.jpg">
+                <img src="media/rickpic3.jpg" alt="Rick On The AT" width="300" height="300" title="I Plan To Hike All Of The Georgia Section Of The AT">
             </a>
-            <h2><br>About Me:</h2>
+            <a href="media/mugshot.png">
+                <img src="media/mugshot.png" alt="Rick's Mugshot" width="300" height="300" title="My Professional Photo">
+            </a>
+            <a href="media/rickpic2.jpg">
+                <img src="media/rickpic2.jpg" alt="Rick On Bartram Trail" width="300" height="300" title="I Enjoy Hiking Whenever I Can">
+            </a>
+
+            <h3><br>About Me:</h3>
             <p>
-                Hello, my name is Rick Mora.
-                I am currently a student in the Georgia Tech Data Science Bootcamp.<br>
-                I hope to transition into a professional role in this field in 2022.<br>
-                Previously, I had worked almost 30 years in the hospitality industy.<br>
+                I have a degree in Physics from the Georgia Institute of Technology.<br>
+                Recently I attended a Georgia Tech Bootcamp and obtained a certificate in Data Science and Analytics.<br>
+                I hope to transition into a professional role in this field in 2023.<br>
+                Previously, I had worked almost 30 years in the hospitality industy<br>
+                focusing on planning and executing alcoholic beverage dispensation for large corporate events.<br>
             </p>
         </center>
+        <br>
         <hr>
-        <h3>External Links: </h3>
-        <ul>
-            <li>Github site: </li>
-                <a href=""></a>
-            <li>LinkedIn profile: </li>
-                <a href=""></a>
-        </ul>
         <hr>
+ 
         <center>
-            <h3>Some of my favorite things:</h3>
-            <table border="2">
+            <h3>Some Of My Favorite Things:</h3>
+            <table border="1">
                 <tr>
                     <th>Movies</th>
                     <th>TV Shows</th>
@@ -93,38 +122,59 @@
                     <th>Programming Languages</th></td>
                 </tr>
                 <tr>
-                    <td>Star Wars Series</td>
+                    <td>All Star Wars Movies</td>
                     <td>The Expanse</td>
-                    <td>Foundation Series</td>
+                    <td>The Foundation Series</td>
                     <td>Hiking</td>
                     <td>VBA</td>
                 </tr>
                 <tr>
-                    <td>Harry Potter Series</td>
+                    <td>All Harry Potter Movies</td>
                     <td>Babylon 5</td>
-                    <td>Hithhikers Guide Series</td>
+                    <td>The Hitchhikers Guide Series</td>
                     <td>Whitewater Rafting</td>
                     <td>Python</td>
                 </tr>
                 <tr>
-                    <td>Avengers Series</td>
+                    <td>All Avengers Movies</td>
                     <td>All Trek Series</td>
-                    <td>Dune Series</td>
+                    <td>The Dune Series</td>
                     <td>Weight Lifting</td>
-                    <td>Fortran (yikes!)</td>
+                    <td>JavaScript</td>
                 </tr>
                 <tr>
-                    <td>Davinci Code Series</td>
-                    <td>Big Bang Theory</td>
-                    <td>Reality Dysfunction Series</td>
+                    <td>All Davinci Code Movies</td>
+                    <td>The Big Bang Theory</td>
+                    <td>The Reality Dysfunction Series</td>
                     <td>Bartending/Mixology</td>
-                    <td></td>
+                    <td>Fortran?? (yikes!)</td>
                 </tr>
             </table>
         </center>
+        <br>
+        <br>
+        <hr>
+        <hr>
+
+        <center>
+        <h3>External Links: </h3>
+            <ul class="external">
+                <li><strong>Email:</strong> <a href="mailto:rick@mora.net" style="color:maroon">rick@mora.net</a></li>
+                <li><strong>Github Site:</strong> <a href="https://github.com/rickmora98" style="color:maroon">rickmora98</a></li>
+                <li><strong>LinkedIn Profile:</strong> <a href="https://www.linkedin.com/in/rickmoracsw/" style="color:maroon">rickmoracsw</a></li>   
+            </ul>
+        </center>
+        <br>
+        <hr>
+        <hr>
+
     </body>
 
     <footer>
-        <p>&copy; 2021, Ricardo G. Mora, Jr.  All rights reserved.</p>
+        <center>
+            <br>
+            <p>&copy; 2023, Ricardo G. Mora, Jr.  All rights reserved.</p>
+            <br>
+        </center>
     </footer>
 </html>
